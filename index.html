@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+    *{padding: 0;margin: 0; box-sizing: border-box;}
+    header{
+        height: 100vh;
+        width: 100%;
+        position: relative;
+    }
+    h1{
+        font-size: auto;
+      color: #212121;
+      transition: all 1s linear;
+      }
+    .card{
+        height: 500px;
+        width: 500px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 50%;
+        border-radius: 30px;
+        padding: 20px;
+        box-shadow: 0 0 20px 0px #212121;
+        text-align: center;
+        transition: all 1s linear;
+    }
+    .card:hover{
+      top: 45%;
+      box-shadow: 0 0 40px 0px #00aaff;
+      }
+    .card:hover h1{
+      color: #0099ff;
+      }
+</style>
+</head>
+<body>
+<header>
+<div class="card">
+    <h1>Husayn Rion is a nice guy.</h1>
+    <img src="tick.png" alt="" />
+</div>
+</header>
+</body>
+</html>
