@@ -21,10 +21,16 @@ body {
   perspective: 800px;
 }
 
-.container:hover > .card {
-  cursor: pointer;
-  transform: rotateY(180deg);
-}
+
+
+
+
+
+
+
+
+
+
 
 .card {
   height: 100%;
