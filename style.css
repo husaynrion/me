@@ -69,7 +69,7 @@ body {
 
 #front-icon img{
   height: 130px;
-  position: relative;
+  position: absolute;
   bottom: -18px;
   opacity: 0.8;
 }
