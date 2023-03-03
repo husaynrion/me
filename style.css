@@ -72,10 +72,12 @@ body {
   position: absolute;
   bottom: -18px;
   opacity: 0.8;
+  background-color: green;
 }
 
 #eyes{
   display: none;
+  background-color: blue;
 }
 .container:hover > .card .front #front-icon #eyes{
   display: block;
