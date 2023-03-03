@@ -77,9 +77,9 @@ body {
 
 #eyes{
   display: none;
-  background-color: blue;
 }
 .container:hover > .card .front #front-icon #eyes{
+  background-color: blue;
   display: block;
 }
 
