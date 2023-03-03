@@ -7,7 +7,7 @@
 body {
   height: 100vh;
   overflow: hidden;
-  background: linear-gradient(45deg, #1c7ece, #2ceb9b);
+  background-color: #ffffff;
   font-family: Helvetica, sans-serif;
   color: rgb(44, 44, 44);
   display: flex;
