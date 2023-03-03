@@ -74,6 +74,13 @@ body {
   opacity: 0.8;
 }
 
+#eyes{
+  display: none;
+}
+.container:hover > .card .front #front-icon #eyes{
+  display: block;
+}
+
 #front-logo{
   position: relative;
   display: flex ;
