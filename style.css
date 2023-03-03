@@ -78,14 +78,12 @@ body {
   position: absolute;
   bottom: -18px;
   opacity: 0.8;
-  background-color: green;
 }
 
 #eyes{
   display: none;
 }
 .container:hover > .card .front #front-icon #eyes{
-  background-color: blue;
   display: block;
 }
 
@@ -120,14 +118,10 @@ body {
   opacity: 0.7;
 }
 
-
-
-
-
-
-
-
-
+.container:hover > .card {
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
 
 .back #pic{
   height: 90px;
@@ -191,10 +185,6 @@ body {
 .back .cont .link .fa-github:hover{
   color: #1b1b1b;
 }
-
-
-
-
 
 .container:hover > .card .back #pic{
   top: -50px;
