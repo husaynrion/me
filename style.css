@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+h4 {
+    color: #077a2e;
+    text-decoration: underline;
+}
 
 
 body{
@@ -12,15 +16,19 @@ body{
     width: 100%;
     padding:0;
     margin:0;
-    background-color: #696969;
-    background-position: center;
+    background-color: #76efff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("bg.jpeg");
+    background-position: center center;
+    background-attachment: fixed;
     position: relative;
 }
 
 nav {
     position: relative;
-    top: 0;
     width: 100%;
+    margin-top: 40px;
 }
 
 
@@ -37,16 +45,25 @@ nav {
 ul a {
     text-align: center;
     display: inline-block;
-    color: rgb(247, 247, 247);
-    padding: 0px 20px;
-    font-size: 18px;
-    border: 1px #BDC3C7 solid;
+    color: #15572a !important;
+    margin: 5px 25px;
+    font-size: 16px;
+    font-weight: 800;
     text-decoration:none;
 }
 
 ul a:hover {
-    background-color: #fbfc70;
-    color: rgb(0, 0, 0);
+    color: #00a838 !important;
+}
+
+.clicked {
+
+    color: #00a838 !important;
+
+}
+
+.unclicked {
+    color: #15572a !important;
 }
 #nav {
         display: flex;
