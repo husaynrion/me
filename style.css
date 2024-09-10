@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+h4 {
+    color: #077a2e;
+    text-decoration: underline;
+}
 
 
 body{
@@ -16,7 +20,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("bg.jpeg");
-    background-position: center;
+    background-position: center center;
+    background-attachment: fixed;
     position: relative;
 }
 
