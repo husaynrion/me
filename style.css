@@ -10,15 +10,6 @@ h4 {
     text-decoration: underline;
 }
 
-h5, h6 {
-
-    font-weight: bold !important;
-}
-
-p {
-    word-spacing: 4px;
-}
-
 body{
     height: 100vh;
     width: 100%;
@@ -63,63 +54,16 @@ ul a:hover {
     color: #00a838 !important;
 }
 
-.clicked {
+#projectButton {
 
     color: #00a838 !important;
 
 }
 
-.unclicked {
-    color: #15572a !important;
-}
+
 #nav {
         display: flex;
         flex-direction: row;
         justify-content: center;
         top: 0;
     }
-
-#aboutContent {
-    display: none;
-}
-
-#resumeContent {
-    display: none;
-}
-
-
-
-
-
-
-
-.links {
-    margin: 10px 0px;
-}
-.links a{
-    margin: 0px 30px 0px 0px;
-}
-.links i{
-    font-size: 30px;
-    color: rgb(82, 82, 82);
-    transition: all 0.2s ease;
-}
-.links i:hover{
-    cursor: pointer;
-}
-
-.links .fa-github:hover{
-    color: #1b1b1b;
-}
- 
-.links .fa-linkedin:hover{
-    color: #0a66c2;
-}
-
-.links .fa-twitter:hover{
-    color: #1da1f2;
-}
-
-.links .fa-facebook:hover{
-    color: #4267B2;
-}
